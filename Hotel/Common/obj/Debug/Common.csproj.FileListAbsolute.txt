@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\bin\Debug\Interop.jmail.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\obj\Debug\Interop.jmail.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

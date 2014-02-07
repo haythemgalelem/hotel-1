@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\obj\Debug\BusinessOperator.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\BusinessOperator.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\BusinessOperator.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\DataAccessLayer.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\JSService.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\DataAccessLayer.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\JSService.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\obj\Debug\BusinessOperator.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessOperator\obj\Debug\BusinessOperator.pdb

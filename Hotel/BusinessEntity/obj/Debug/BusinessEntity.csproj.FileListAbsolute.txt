@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessEntity\obj\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache

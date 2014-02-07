@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA2A6C46-777B-4A67-98DB-6B985374BE24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Client</RootNamespace>
+    <AssemblyName>JSClient</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.BonusSkins.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Data.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Localization.v11.1, Version=11.1.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\DevExpress.Localization.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.OfficeSkins.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.OfficeSkins.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Printing.v11.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Tutorials.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Tutorials.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.Utils.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraBars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraLayout.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraNavBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v11.1, Version=11.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files\DevExpress 2011.1\Components\Sources\DevExpress.DLL\DevExpress.XtraTreeList.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.jmail, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>DLL\Interop.jmail.dll</HintPath>
+    </Reference>
+    <Reference Include="LumiSoft.Net, Version=2.0.4878.18995, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\LumiSoft.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC\Microsoft.mshtml\7.0.3300.0__b03f5f7f11d50a3a\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="SkinProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\SkinProject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorityClass\ControlsAuthority.cs" />
+    <Compile Include="AuthorityClass\ControlsAuthorityOperater.cs" />
+    <Compile Include="CommonForms\FormDlgBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForms\FormDlgBase.Designer.cs">
+      <DependentUpon>FormDlgBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonForms\FormDownloadAttach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForms\FormDownloadAttach.Designer.cs">
+      <DependentUpon>FormDownloadAttach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonForms\FormLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForms\FormLock.designer.cs">
+      <DependentUpon>FormLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonForms\FormMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForms\FormMessageBox.Designer.cs">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonForms\FormProgressing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonForms\FormProgressing.designer.cs">
+      <DependentUpon>FormProgressing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DictSearchLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DictSearchLookUpEdit.Designer.cs">
+      <DependentUpon>DictSearchLookUpEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HtmlEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HtmlEditor.Designer.cs">
+      <DependentUpon>HtmlEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchLookupEditBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchLookupEditBase.Designer.cs">
+      <DependentUpon>SearchLookupEditBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ToolbarPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ToolbarPanel.Designer.cs">
+      <DependentUpon>ToolbarPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerConfig\ClientAppConfig.cs" />
+    <Compile Include="CustomerConfig\ClientConfigNode.cs" />
+    <Compile Include="CustomerConfig\ConfigBase.cs" />
+    <Compile Include="CustomerConfig\ExcelOperator.cs" />
+    <Compile Include="CustomerConfig\SysMessage.cs" />
+    <Compile Include="CustomerConfig\SysMessageNode.cs" />
+    <Compile Include="CustomerConfig\UserConfig.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramForms\01系统设置\FormEditDict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditDict.Designer.cs">
+      <DependentUpon>FormEditDict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditOperator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditOperator.Designer.cs">
+      <DependentUpon>FormEditOperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditRoomType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditRoomType.Designer.cs">
+      <DependentUpon>FormEditRoomType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormEditLost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormEditLost.Designer.cs">
+      <DependentUpon>FormEditLost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormEditMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormEditMember.Designer.cs">
+      <DependentUpon>FormEditMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditMemberType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditMemberType.Designer.cs">
+      <DependentUpon>FormEditMemberType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormSetPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormSetPwd.Designer.cs">
+      <DependentUpon>FormSetPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditBuilding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditBuilding.Designer.cs">
+      <DependentUpon>FormEditBuilding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormEditRoom.Designer.cs">
+      <DependentUpon>FormEditRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\04前台管理\FormEditReserve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\04前台管理\FormEditReserve.Designer.cs">
+      <DependentUpon>FormEditReserve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\Formlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\Formlogin.Designer.cs">
+      <DependentUpon>Formlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormReCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormReCard.Designer.cs">
+      <DependentUpon>FormReCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FromEditLayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FromEditLayer.Designer.cs">
+      <DependentUpon>FromEditLayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormSelectRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\01系统设置\FormSelectRoom.Designer.cs">
+      <DependentUpon>FormSelectRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBase.Designer.cs">
+      <DependentUpon>UserControlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCDataDictionary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCDataDictionary.Designer.cs">
+      <DependentUpon>UCDataDictionary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCRoomType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCRoomType.Designer.cs">
+      <DependentUpon>UCRoomType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormCharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\02会员管理\FormCharge.Designer.cs">
+      <DependentUpon>FormCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCLost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCLost.Designer.cs">
+      <DependentUpon>UCLost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\IUserControl.cs" />
+    <Compile Include="ProgramForms\04前台管理\FormEditCheckin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramForms\04前台管理\FormEditCheckin.Designer.cs">
+      <DependentUpon>FormEditCheckin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCOperator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCOperator.Designer.cs">
+      <DependentUpon>UCOperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\03客户管理\UCCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\03客户管理\UCCustomer.Designer.cs">
+      <DependentUpon>UCCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCMember.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCMember.Designer.cs">
+      <DependentUpon>UCMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\04前台管理\UCCheckin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\04前台管理\UCCheckin.Designer.cs">
+      <DependentUpon>UCCheckin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCMain.Designer.cs">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCMemberType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCMemberType.Designer.cs">
+      <DependentUpon>UCMemberType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCScorePrize.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\02会员管理\UCScorePrize.Designer.cs">
+      <DependentUpon>UCScorePrize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCSetRoom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\01系统设置\UCSetRoom.Designer.cs">
+      <DependentUpon>UCSetRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\04前台管理\UCReserve.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\04前台管理\UCReserve.Designer.cs">
+      <DependentUpon>UCReserve.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CommonForms\FormDlgBase.resx">
+      <DependentUpon>FormDlgBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonForms\FormDownloadAttach.resx">
+      <DependentUpon>FormDownloadAttach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonForms\FormLock.resx">
+      <DependentUpon>FormLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonForms\FormMessageBox.resx">
+      <DependentUpon>FormMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonForms\FormProgressing.resx">
+      <DependentUpon>FormProgressing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DictSearchLookUpEdit.resx">
+      <DependentUpon>DictSearchLookUpEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HtmlEditor.resx">
+      <DependentUpon>HtmlEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ToolbarPanel.resx">
+      <DependentUpon>ToolbarPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FormEditBuilding.resx">
+      <DependentUpon>FormEditBuilding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FormEditDict.resx">
+      <DependentUpon>FormEditDict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FormEditOperator.resx">
+      <DependentUpon>FormEditOperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FormEditRoomType.resx">
+      <DependentUpon>FormEditRoomType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\02会员管理\FormEditLost.resx">
+      <DependentUpon>FormEditLost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\02会员管理\FormEditMember.resx">
+      <DependentUpon>FormEditMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FormEditMemberType.resx">
+      <DependentUpon>FormEditMemberType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\02会员管理\FormSetPwd.resx">
+      <DependentUpon>FormSetPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FormEditRoom.resx">
+      <DependentUpon>FormEditRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\04前台管理\FormEditReserve.resx">
+      <DependentUpon>FormEditReserve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\Formlogin.resx">
+      <DependentUpon>Formlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\02会员管理\FormReCard.resx">
+      <DependentUpon>FormReCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FromEditLayer.resx">
+      <DependentUpon>FromEditLayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\01系统设置\FormSelectRoom.resx">
+      <DependentUpon>FormSelectRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControlBase.resx">
+      <DependentUpon>UserControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\01系统设置\UCOperator.resx">
+      <DependentUpon>UCOperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\01系统设置\UCRoomType.resx">
+      <DependentUpon>UCRoomType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\02会员管理\FormCharge.resx">
+      <DependentUpon>FormCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\01系统设置\UCSetRoom.resx">
+      <DependentUpon>UCSetRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramForms\04前台管理\FormEditCheckin.resx">
+      <DependentUpon>FormEditCheckin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\01系统设置\UCDataDictionary.resx">
+      <DependentUpon>UCDataDictionary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\02会员管理\UCLost.resx">
+      <DependentUpon>UCLost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\02会员管理\UCMember.resx">
+      <DependentUpon>UCMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\03客户管理\UCCustomer.resx">
+      <DependentUpon>UCCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\04前台管理\UCCheckin.resx">
+      <DependentUpon>UCCheckin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\04前台管理\UCReserve.resx">
+      <DependentUpon>UCReserve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCMain.resx">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\02会员管理\UCMemberType.resx">
+      <DependentUpon>UCMemberType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\02会员管理\UCScorePrize.resx">
+      <DependentUpon>UCScorePrize.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="AuthorityClass\vssver2.scc" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\DevExpress.Localization.v11.1.dll" />
+    <Content Include="DLL\Interop.jmail.dll" />
+    <Content Include="DLL\jmail.dll" />
+    <Content Include="DLL\LumiSoft.Net.dll" />
+    <Content Include="DLL\SkinProject.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
+      <Project>{F5B75748-DE2E-4054-A429-31B07C4D0C2A}</Project>
+      <Name>BusinessEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessOperator\BusinessOperator.csproj">
+      <Project>{6B387510-25B8-4378-9A70-200000DFC6F4}</Project>
+      <Name>BusinessOperator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{5D74B3DE-D882-4949-B781-1720C863B41E}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProgramForms\03客户管理\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

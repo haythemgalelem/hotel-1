@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<configuration>
+
+  <appSettings>
+    <add key="const_ProgramCaption" value="新世纪酒店信息管理系统"/>
+    <add key="const_Version" value="Release 1.0.0.0"/>
+    <add key="AppConfigPath" value="\Config\AppConfig.xml"/>
+    <add key="SysMessagePath" value="\Config\SysMessage.xml"/>
+    <add key="ReportDirectory" value="\ReportFile\"/>
+    <add key="ConnectionString" value="server=127.0.0.1;database=NewAgeHotel;uid=sa;pwd=csit2012!@#; Connection Lifetime=120;Connection Timeout=60"/>
+    <add key="ConStringEncrypt" value="false"/>
+   
+  </appSettings>
+<startup><supportedRuntime version="v0.0.1"/>
+</startup>
+</configuration>

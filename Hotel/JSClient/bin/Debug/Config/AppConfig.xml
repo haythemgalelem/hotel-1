@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ClientAppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AppConfigNode Key="ShowUsedControl" Value="True" />
+  <UsedUserControl Key="0203" Value="积分兑换" />
+  <UsedUserControl Key="0104" Value="会员类型" />
+  <UsedUserControl Key="0105" Value="房间设置" />
+  <UsedUserControl Key="0202" Value="挂失查询" />
+  <UsedUserControl Key="0301" Value="客户列表" />
+  <UsedUserControl Key="0401" Value="预订管理" />
+  <UsedUserControl Key="0402" Value="入住管理" />
+  <UsedUserControl Key="0103" Value="房间类型" />
+  <UsedUserControl Key="0102" Value="用户管理" />
+  <UsedUserControl Key="0201" Value="会员列表" />
+  <UsedUserControl Key="0101" Value="字典管理" />
+</ClientAppConfig>

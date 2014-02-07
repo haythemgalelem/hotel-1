@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\obj\Debug\HotelService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\JSService.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\JSService.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\DataAccessLayer.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\DataAccessLayer.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\obj\Debug\JSService.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\JSService\obj\Debug\JSService.pdb

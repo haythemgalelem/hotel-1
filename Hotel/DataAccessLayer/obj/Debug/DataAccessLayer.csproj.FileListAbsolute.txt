@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\bin\Debug\BusinessEntity.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\bin\Debug\BusinessEntity.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Administrator\Desktop\酒店管理系统—C#&数据库\Hotel\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

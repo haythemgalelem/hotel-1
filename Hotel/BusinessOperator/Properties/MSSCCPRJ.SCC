@@ -1,0 +1,14 @@
+SCC = This is a Source Code Control file.
+
+[Hotel.sln]
+SCC_Aux_Path = 27.151.127.13:8877:CarManger
+SCC_Project_Name = $/CRM
+
+[BusinessEntity.csproj]
+SCC_Aux_Path = 27.151.127.13:8877:CarManger
+SCC_Project_Name = $/CRM/BusinessEntity
+
+[BusinessOperator.csproj]
+SCC_Aux_Path = 27.151.127.13:8877:CarManger
+SCC_Project_Name = $/CRM/BusinessOperator
+
